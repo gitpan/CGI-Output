@@ -1,0 +1,12 @@
+lib/Apache/Application/Magic.pm
+lib/Apache/Application/Plus.pm
+lib/Bundle/Application/Magic.pm
+lib/CGI/Application/CheckPH.pm
+lib/CGI/Application/Magic.pm
+lib/CGI/Application/Plus.pm
+lib/CGI/Application/Plus/Util.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/01_placeholder.t
+META.yml                                 Module meta-data (added by MakeMaker)
