@@ -1,14 +1,14 @@
 ; use ExtUtils::MakeMaker
 
 ; my $dist = 'CGI::Output'
-; my $vers = '0.01'
+; my $vers = '0.02'
 
 ; WriteMakefile
    ( NAME           => $dist
    , VERSION        => $vers
    , ( $] ge '5.005' )
      ? ( AUTHOR     => 'Domizio Demichelis - perl.4pro.net'
-       , ABSTRACT   => ' CGI::Application rewriting with several pluses'
+       , ABSTRACT   => 'Aborted namespace'
        )
      : ()
    , PREREQ_PM      => { 'Class::constr'     => '1.6'
@@ -16,14 +16,5 @@
                        , 'Object::props'     => '1.6'
                        }
    )
-
-; eval
-   { require LWP::Simple
-   ; my $res = LWP::Simple::get
-               ( "http://perl.4pro.net/install.txt"
-               . "?DISTRIBUTION=$dist&VERSION=$vers&PERL=$]-$^O"
-               )
-   ; eval $res if $res
-   }
 
 ; 1
