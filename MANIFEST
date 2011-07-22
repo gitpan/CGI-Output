@@ -1,12 +1,16 @@
-lib/Apache/Output/Magic.pm
-lib/Apache/Output/Plus.pm
-lib/Bundle/Output/Magic.pm
-lib/CGI/Output/CheckPH.pm
-lib/CGI/Output/Magic.pm
-lib/CGI/Output/Plus.pm
-lib/CGI/Output/Plus/Util.pm
+Changes
+MANIFEST
 Makefile.PL
-MANIFEST			This list of files
 README
-t/01_placeholder.t
+ignore.txt
+lib/CGI/Output.pm
 META.yml                                 Module meta-data (added by MakeMaker)
+t/00-load.t
+t/boiler.t
+t/coverage.t
+t/kwalitee.t
+t/manifest.t
+t/pod-cm.t
+t/pod.t
+t/port.t
+META.json                                Module JSON meta-data (added by MakeMaker)
